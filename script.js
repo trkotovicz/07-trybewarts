@@ -1,4 +1,3 @@
-const form = document.querySelector('.trybewarts-login');
 const login = document.querySelector('#email');
 const password = document.querySelector('#password');
 const btnEntrar = document.querySelector('#btn-entrar');
@@ -10,12 +9,6 @@ function emailAlert() {
     alert('Email ou senha inválidos.');
   }
 }
-
-
-
-
-
-
 
 function callEvent() {
   btnEntrar.addEventListener('click', emailAlert);
