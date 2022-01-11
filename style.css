@@ -23,3 +23,16 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.name-lastname {
+  display: inline-block;
+}
+
+.email-house {
+  display: inline-block;
+}
+
+.family {
+  display: flex;
+  flex-direction: column;
+}
