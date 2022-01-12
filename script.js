@@ -1,7 +1,8 @@
 const login = document.querySelector('#email');
 const password = document.querySelector('#password');
 const btnEntrar = document.querySelector('#btn-entrar');
-const labelRadio = document.querySelector('#label-rate');
+const agreementBox = document.querySelector('#agreement');
+const btnSubmit = document.querySelector('#submit-btn');
 
 function emailAlert() {
   if (login.value === 'tryber@teste.com' && password.value === '123456') {
@@ -11,19 +12,17 @@ function emailAlert() {
   }
 }
 
-// function evaluator() {
-//   const valueRadio = 10;
-//   const createRadio = '';
-//   for (let i = 0; i < valueRadio.length; i += 1) {
-//     createRadio.createElement('input');
-//     createRadio.setAttribute('type', 'radio');
-//     createRadio.setAttribute('name', 'rate');
-//     labelRadio.appendChild(createRadio);
-//   }
-// }
-// evaluator();
+function sendAgreement() {
+  const agreed = agreementBox.checked;
+  if (agreed === true) {
+    btnSubmit.disabled = false;
+  } else {
+    btnSubmit.disabled = true;
+  }
+}
 
 function callEvent() {
   btnEntrar.addEventListener('click', emailAlert);
+  agreementBox.addEventListener('change', sendAgreement);
 }
 callEvent();
