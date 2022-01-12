@@ -14,10 +14,14 @@ function emailAlert() {
 // function evaluator() {
 //   const valueRadio = 10;
 //   const createRadio = '';
-//   for (const i = 0; i < valueRadio.length; += i) {
-//     createRadio.createElement('input')   
+//   for (let i = 0; i < valueRadio.length; i += 1) {
+//     createRadio.createElement('input');
+//     createRadio.setAttribute('type', 'radio');
+//     createRadio.setAttribute('name', 'rate');
+//     labelRadio.appendChild(createRadio);
 //   }
 // }
+// evaluator();
 
 function callEvent() {
   btnEntrar.addEventListener('click', emailAlert);
