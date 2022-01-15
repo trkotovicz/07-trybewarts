@@ -158,6 +158,11 @@ textarea {
   width: 550px;
 }
 
+#counter {
+  margin-left: 510px;
+  color: rgb(74, 0, 160);
+}
+
 #submit-btn {
   width: 550px;
   background-color: rgb(74, 0, 160);
