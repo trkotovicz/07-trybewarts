@@ -5,7 +5,7 @@ Esse projeto foi desenvolvido em dupla, durante o curso de desinvolvimento web n
 Nele, usamos Forms do HTML, CSS e JS puro.
 
 
-![aplicacao em funcionamento](/images/aplicacao.gif)
+![aplicacao em funcionamento](/images/aplicacao-run.gif)
 
 ---
 

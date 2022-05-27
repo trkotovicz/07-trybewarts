@@ -125,7 +125,7 @@ main {
 
 #house {
   width: 205px;
-  height: 30px;
+  height: 32px;
   margin: 5px 1px;
   border-radius: 5px;
   border: 2px solid white;
@@ -143,8 +143,13 @@ main {
 .family {
   display: flex;
   flex-direction: column;
-  width: 150px;
+  width: 200px;
 }
+
+/* .family-front {
+  display: flex;
+  flex-direction: column;
+} */
 
 .conteudo-aprender {
   display: flex;
